@@ -2,6 +2,6 @@ import random
 import sys
 
 if __name__ == '__main__':
-    rango = int(sys.argv[1])
-    print("Generando un numero aleatorio en un rango de 0 a " + str(rango))
-    print(random.choice(range(rango)))
+    rango = random.randint(0,100)
+    print("analizando tu iq...")
+    print("tu iq es de:"rango)
